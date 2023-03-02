@@ -26,6 +26,20 @@
     justify-content: center;
 }
 
+.rowFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.signInCircleBot {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+}
+
 .botInf {
     padding: 0 50px;
 }
