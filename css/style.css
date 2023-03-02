@@ -1,0 +1,12 @@
+.container-fluid a {
+    margin: 5px  15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boxM {
+    margin-top: 60px;
+}
+
+.card {
+    padding: 0;
+}
