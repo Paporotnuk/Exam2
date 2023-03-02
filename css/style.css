@@ -10,3 +10,92 @@
 .card {
     padding: 0;
 }
+
+.card-body {
+    margin: 0 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.infoCard {
+    display: flex;
+    align-items: center;
+}
+
+.FourpicsBot {
+    display: flex;
+    justify-content: center;
+}
+
+.botInf {
+    padding: 0 50px;
+}
+
+.botInf .col {
+    text-align: center;
+}
+
+.midUp {
+    border-left: 1px solid grey; 
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.bothS {
+    border-left: 1px solid grey; 
+    border-right: 1px solid grey;
+}
+
+.topB {
+    border-bottom: 1px solid grey;
+}
+
+@media (max-width:992px) {
+
+    .third, .fourth {
+        width: 0;
+    }
+    .first, .sec {
+        width: 40%;
+    }
+    #botB2 {
+        border-right:1px solid grey ;
+
+    }
+    .midUp {
+        border-right: 0;
+    }
+    .bothS {
+        border-left: 0;
+    }
+    .botSmSc {
+        border-bottom: 1px solid grey;
+    }
+}
+
+@media (max-width:768px) {
+    .rowWOr .col-lg-5, .rowWOr .col-lg-3 {
+        order: 0;
+    }
+    .rowWOr .col-lg-7, .rowWOr .col-lg-9 {
+        order: 1;
+    } 
+    .sec {
+        width: 0%;
+    }
+    .first {
+        width: 70%;
+    }
+    .midUp {
+        border-left: 0;
+    }
+    #botB2 {
+        border-right: 0;
+    }
+    .bothS {
+        border-bottom:1px solid grey ;
+        border-right: 0;
+    }
+    .theLastI {
+        border-bottom: 1px solid grey;
+    }
+}
